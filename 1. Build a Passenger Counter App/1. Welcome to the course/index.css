@@ -1,4 +1,35 @@
-html, body {
+body {
     margin: 0;
     padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url('img.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1,h2{
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+#btn1{
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 30%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#btn2{
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 30%;
+    font-size: 15px;
+    font-weight: bold;
 }

@@ -10,5 +10,13 @@
 // change the count-el in the HTML to reflect the new count
 
 
+let count = 2
+
+let cont1 = document.getElementById('count-el')
+
+function increment(){
+    count1.textContent = count
+}
+
 
 
