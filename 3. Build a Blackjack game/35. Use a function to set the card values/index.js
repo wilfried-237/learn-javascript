@@ -12,7 +12,9 @@ let cardsEl = document.getElementById("cards-el")
 
 // 1. Create a function, getRandomCard(), that always returns the number 5
 
-
+function getRandomCard(){
+    return 5
+}
 
 function startGame() {
     renderGame()
@@ -45,4 +47,4 @@ function newCard() {
     cards.push(card)
     console.log(cards)
     renderGame()
-}
+} 

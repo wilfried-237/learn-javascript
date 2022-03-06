@@ -10,7 +10,7 @@ let cardsEl = document.getElementById("cards-el")
 let player = {
     name: "Per",
     chips: 145
-}
+} 
 
 
 let playerEl = document.getElementById("player-el")

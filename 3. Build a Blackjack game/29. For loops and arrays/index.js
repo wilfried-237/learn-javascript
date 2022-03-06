@@ -3,7 +3,8 @@ let messages = [
     "I'm great, thank you! How about you?",
     "All good. Been working on my portfolio lately.",
     "Same here!",
-    "Great to hear"
+    "Great to hear",
+    "End"
 ]
 
 // DRY - Don't repeat yourself
@@ -11,6 +12,13 @@ let messages = [
 // console.log(messages[1])
 // console.log(messages[2])
 // console.log(messages[3])
+
+let length = messages.length
+
+
+for(i=1;i<length;i+=1){
+    console.log(messages[i])
+}
 
 
 

@@ -35,3 +35,4 @@ function newCard() {
     sum += card
     renderGame()
 }
+

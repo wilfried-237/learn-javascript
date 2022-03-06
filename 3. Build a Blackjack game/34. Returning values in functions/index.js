@@ -20,4 +20,10 @@ function getFastestRaceTime() {
 // Finally, log the variable out
 
 
+function totalRaceTime(){
+    return player1Time + player2Time
+}
 
+let timeTotal = totalRaceTime()
+
+console.log(timeTotal)
