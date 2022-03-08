@@ -9,5 +9,14 @@
 
 // Use both a for loop and a template string to solve the challenge
 function generateSentence(desc, arr) {
-    
+    if(desc === "largest countries"&& arr === ["China", "India", "USA"]){
+        return `The ${arr.length} ${desc} are ${arr}`
+    }else{
+        return `The ${arr.length} ${desc} are ${arr}`
+    }
 }
+
+let sent = generateSentence("best fruits",["Apples", "Bananas"])
+
+
+console.log(sent);
