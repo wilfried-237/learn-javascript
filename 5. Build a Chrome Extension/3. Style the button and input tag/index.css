@@ -10,13 +10,25 @@ Style our app according to the provided design!
 
 green color -> #5f9341
 
-*/
+*/ 
 
 
 input {
-    
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #5f9341;
+    border-radius: 2px;
 }
 
 button {
+    margin: 5px 0px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #5f9341;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
     
 }

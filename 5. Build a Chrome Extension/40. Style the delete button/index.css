@@ -19,12 +19,14 @@ button {
     padding: 10px 20px;
     border: none;
     font-weight: bold;
-}
+} 
 
 /* Style the button according to the provided design */
 
 #delete-btn {
-    
+    color: #5f9341;
+    border: 1px solid #5f9341;
+    background-color: white;
 }
 
 ul {
